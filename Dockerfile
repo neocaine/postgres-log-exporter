@@ -29,4 +29,4 @@ RUN set -e -x -o pipefail \
 
 COPY ["fluent.conf", "/fluentd/etc/"]
 
-USER fluent
+USER root
